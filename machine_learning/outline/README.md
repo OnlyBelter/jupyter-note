@@ -1,5 +1,11 @@
 ## 1. 常见的算法：
----
+
+### Microsoft Azure中的主要算法
+![Azure_ml_map](https://raw.githubusercontent.com/OnlyBelter/jupyter-note/master/machine_learning/outline/Microsoft_Azure_ML.png)
+
+### scikit-learn中算法的分类
+![sk-learn_ml_map](https://raw.githubusercontent.com/OnlyBelter/jupyter-note/master/machine_learning/outline/scikit-learn_ml_map.png)
+
 ### 1.1 线性回归
 - 岭回归
 - Lasso回归
@@ -58,9 +64,7 @@ Apriori algorithm is an unsupervised machine learning algorithm that generates a
 - [wiki](https://en.wikipedia.org/wiki/AdaBoost)
 
 
-
 ## 2. 算法的分类：
----
 
 ### 2.1 有监督学习(Supervised learning)
 Supervised learning algorithms make predictions based on a set of examples. For instance, historical stock prices can be used to hazard guesses at future prices. Each example used for training is labeled with the value of interest—in this case the stock price. A supervised learning algorithm looks for patterns in those value labels. It can use any information that might be relevant—the day of the week, the season, the company's financial data, the type of industry, the presence of disruptive geopolitical events—and each algorithm looks for different types of patterns. After the algorithm has found the best pattern it can, it uses that pattern to make predictions for unlabeled testing data—tomorrow's prices.
@@ -79,7 +83,6 @@ In reinforcement learning, the algorithm gets to choose an action in response to
 
 
 ## 3. 算法的选择
----
 
 ### 3.1 准确度(Accuracy)
 Getting the most accurate answer possible isn't always necessary. Sometimes an approximation is adequate, depending on what you want to use it for. If that's the case, you may be able to cut your processing time dramatically by sticking with more approximate methods. Another advantage of more approximate methods is that they naturally tend to avoid overfitting.
@@ -105,7 +108,7 @@ Some learning algorithms make particular assumptions about the structure of the 
 
 
 ## 4. 其他一些关键技术：
----
+
 - 梯度下降
 - 正则化
 - 特征学习
@@ -117,7 +120,7 @@ Some learning algorithms make particular assumptions about the structure of the 
 - Lasso
 
 ## 5. 一些理论：
----
+
 - 过拟合与欠拟合(bias-variance)
 - 算法的复杂度
 - 高维空间中距离的度量(范数)
@@ -132,7 +135,7 @@ Some learning algorithms make particular assumptions about the structure of the 
 - 最小二乘法
 
 ## 6. 常见机器学习任务汇总：
----
+
 - 分类(区分不同疾病的亚型、对电影或书籍的评论进行分类、识别垃圾邮件)
 - 手写体数字的识别(ORC)
 - 推荐系统
@@ -143,7 +146,7 @@ Some learning algorithms make particular assumptions about the structure of the 
 - 聚类分析
 
 ## 7. Reference
----
+
 - RoadToDataScientist.png: http://nirvacana.com/thoughts/2013/07/08/becoming-a-data-scientist/
 - How to choose algorithms for Microsoft Azure Machine Learning
   link: https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-choice
