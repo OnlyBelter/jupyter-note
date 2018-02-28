@@ -1,9 +1,6 @@
 ## 1. 常见的算法：
 
-### Microsoft Azure中的主要算法
-![Azure_ml_map](https://raw.githubusercontent.com/OnlyBelter/jupyter-note/master/machine_learning/outline/Microsoft_Azure_ML.png)
-
-### scikit-learn中算法的分类
+### scikit-learn中的主要算法
 ![sk-learn_ml_map](https://raw.githubusercontent.com/OnlyBelter/jupyter-note/master/machine_learning/outline/scikit-learn_ml_map.png)
 
 ### 1.1 线性回归
@@ -65,6 +62,9 @@ Apriori algorithm is an unsupervised machine learning algorithm that generates a
 
 
 ## 2. 算法的分类：
+
+### Microsoft Azure中的对主要算法的分类（按照使用场景）
+![Azure_ml_map](https://raw.githubusercontent.com/OnlyBelter/jupyter-note/master/machine_learning/outline/Microsoft_Azure_ML.png)
 
 ### 2.1 有监督学习(Supervised learning)
 Supervised learning algorithms make predictions based on a set of examples. For instance, historical stock prices can be used to hazard guesses at future prices. Each example used for training is labeled with the value of interest—in this case the stock price. A supervised learning algorithm looks for patterns in those value labels. It can use any information that might be relevant—the day of the week, the season, the company's financial data, the type of industry, the presence of disruptive geopolitical events—and each algorithm looks for different types of patterns. After the algorithm has found the best pattern it can, it uses that pattern to make predictions for unlabeled testing data—tomorrow's prices.
