@@ -119,17 +119,26 @@ Some learning algorithms make particular assumptions about the structure of the 
 - Ensemble methods: http://scikit-learn.org/stable/modules/ensemble.html
 - Lasso
 
-## 5. 一些理论：
+## 5. 常见的理论知识点：
 
-- 过拟合与欠拟合(bias-variance)
-- 算法的复杂度
-- 高维空间中距离的度量(范数)
-- 凸优化
-- 半正定性
+### 5.1 概率论与数理统计
+- 常见的分布以及相关性质
+- 极大似然估计
+
+### 5.2 线性代数
+- 矩阵的半正定性
 - 对偶
 - 线性投影
 - 奇异值分解
 - 特征值与特征向量
+
+### 5.3 优化理论
+- 过拟合与欠拟合(bias-variance)
+- 凸优化
+
+### 5.4 其他
+- 高维空间中距离的度量(范数)
+- 算法的复杂度
 - 自动编码
 - VC维: 可以用来估计泛化错误的大小
 - 最小二乘法
