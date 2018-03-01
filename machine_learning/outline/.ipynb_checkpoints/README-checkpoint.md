@@ -69,14 +69,25 @@ Apriori algorithm is an unsupervised machine learning algorithm that generates a
 ### 2.1 有监督学习(Supervised learning)
 Supervised learning algorithms make predictions based on a set of examples. For instance, historical stock prices can be used to hazard guesses at future prices. Each example used for training is labeled with the value of interest—in this case the stock price. A supervised learning algorithm looks for patterns in those value labels. It can use any information that might be relevant—the day of the week, the season, the company's financial data, the type of industry, the presence of disruptive geopolitical events—and each algorithm looks for different types of patterns. After the algorithm has found the best pattern it can, it uses that pattern to make predictions for unlabeled testing data—tomorrow's prices.
 
-- **分类问题(Classification)**: When the data are being used to predict a category, supervised learning is also called classification. This is the case when assigning an image as a picture of either a 'cat' or a 'dog'. (相当于定性问题)
+- **分类问题(Classification)**: When the data are being used to predict a category, supervised learning is also called classification. This is the case when assigning an image as a picture of either a 'cat' or a 'dog'. 
+  - **特点**: 输出是离散的，相当于定性问题
   - **二分类(two-class or binomial classification)**: there are only two choices
   - **多分类(multi-class classification)**: there are more categories
-- **回归问题(Regression)**: When a value is being predicted, as with stock prices, supervised learning is called regression. (相当于定量问题)
+- **回归问题(Regression)**: When a value is being predicted, as with stock prices, supervised learning is called regression. 
+  - **特点**: 输出是连续的，相当于定量问题
 - **异常检测(Anomaly detection)**: Sometimes the goal is to identify data points that are simply unusual. In fraud detection, for example, any highly unusual credit card spending patterns are suspect. *The possible variations are so numerous and the training examples so few, that it's not feasible to learn what fraudulent activity looks like. The approach that anomaly detection takes is to simply learn what normal activity looks like (using a history non-fraudulent transactions) and identify anything that is significantly different.*
 
 ### 2.2 无监督学习(Unsupervised learning)
 In unsupervised learning, data points have no labels associated with them. Instead, the goal of an unsupervised learning algorithm is to organize the data in some way or to describe its structure. This can mean grouping it into clusters or finding different ways of looking at complex data so that it appears simpler or more organized.
+
+With unsupervised learning there is no feedback based on the prediction results.
+
+- **聚类问题(Clustering)**
+  - **特点**: 利用变量之间的关系获得数据的结构
+  - **Example**: Take a collection of 1,000,000 different genes, and find a way to automatically group these genes into groups that are somehow similar or related by different variables, such as lifespan, location, roles, and so on.
+
+- **非聚类问题(Non-clustering)**
+  - **Example**: The "Cocktail Party Algorithm", allows you to find structure in a chaotic environment. (i.e. identifying individual voices and music from a mesh of sounds at a cocktail party).
 
 ### 2.3 强化学习(Reinforcement learning)
 In reinforcement learning, the algorithm gets to choose an action in response to each data point. The learning algorithm also receives a reward signal a short time later, indicating how good the decision was. Based on this, the algorithm modifies its strategy in order to achieve the highest reward. Reinforcement learning is common in robotics, where the set of sensor readings at one point in time is a data point, and the algorithm must choose the robot's next action. It is also a natural fit for Internet of Things applications.
@@ -132,11 +143,15 @@ Some learning algorithms make particular assumptions about the structure of the 
 - 奇异值分解
 - 特征值与特征向量
 
-### 5.3 优化理论
+### 5.3 微积分
+- 求导
+- 多元变量的偏导数
+
+### 5.4 优化理论
 - 过拟合与欠拟合(bias-variance)
 - 凸优化
 
-### 5.4 其他
+### 5.5 其他
 - 高维空间中距离的度量(范数)
 - 算法的复杂度
 - 自动编码
