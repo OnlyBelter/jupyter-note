@@ -133,12 +133,17 @@ Some learning algorithms make particular assumptions about the structure of the 
 ## 5. 常见的理论知识点：
 
 ### 5.1 概率论与数理统计
+- 概率空间(Probability spaces)
+- 贝叶斯法则
+- 随机变量
+- 均值与方差
+- 变量依赖性的度量(Dependence)
 - 常见的分布以及相关性质
 - 极大似然估计
 
 ### 5.2 线性代数
+- 矩阵和向量
 - 矩阵的半正定性
-- 对偶
 - 线性投影
 - 奇异值分解
 - 特征值与特征向量
@@ -148,6 +153,9 @@ Some learning algorithms make particular assumptions about the structure of the 
 - 多元变量的偏导数
 
 ### 5.4 优化理论
+- 梯度下降
+- 随机梯度下降
+- 对偶
 - 过拟合与欠拟合(bias-variance)
 - 凸优化
 
