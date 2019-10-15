@@ -1,0 +1,2 @@
+file_name	total_reads	aligned_reads	reads_in_lib (%)	lib_in_reads (%)
+/media/belter/Seagate Expansion Drive/data/zhangli/QC/sublib6/count_files/1_9-6_FKDL190761684-1a-23_H3GYGCCX2_L8_1_sgRNA_library_RBP_v5.2_sublibrary_6.fa.counts	8.81E+05	8.11E+05	92.09	99.26
